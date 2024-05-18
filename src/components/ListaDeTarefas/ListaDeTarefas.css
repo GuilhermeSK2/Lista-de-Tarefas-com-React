@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(71, 149, 250);
+}
+
+div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px solid rgb(34, 83, 146);
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+#adicionar{
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    border: 2px solid rgb(34, 83, 146);
+    background-color: rgb(77, 245, 71);
+    font-size: 18px;
+    color: rgb(34, 83, 146);
+}
+
+ul li {
+    margin: 10px 10px 10px 10px;
+    list-style-type: nome;
+}
+
+#item {
+    color: #fff;
+}
+
+#remover {
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 30px;
+}
